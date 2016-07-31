@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOODSET</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="moodset.css">
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+            <h1>MOODSET</h1>
+            <h3>Where you at ? </h3>
+            <input class="city" type="text"  placeholder="city">
+            <button style="outline:none" class="btn btn-info weather-button">Check weather</button>
+        </div>
+        <hr>
+        <div class="body-weather">
+            <span><i id="weather-icon"></i></span>
+            
+            <table style="width:50%">
+                <tr>
+                    <th style="text-align:center">Temp</th>
+                    <td><em>Max</em></td>
+                    <td id="max"></td>
+                    <td><em>Min</em></td>
+                    <td id="min"></td>
+                </tr>
+
+                <tr class="second-row">
+                    <th style="text-align:center">Wind</th>
+                    <td><em>Deg</em></td>
+                    <td id="deg"></td>
+                    <td><em>Speed</em></td>
+                    <td id="speed"></td>
+                </tr>
+            </table>
+        </div>
+	</div>
+	<script type="text/javascript" src="moodset.js"></script>
+</body>
+</html>
